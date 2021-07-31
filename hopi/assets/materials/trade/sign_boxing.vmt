@@ -1,7 +1,6 @@
 "LightmappedGeneric"
-  {
-  "$basetexture" "trade/sign_boxing"
-  "$decal" 1
-  "$decalscale" 0.25
-  "$translucent" 1
-  }
+{
+	"$basetexture" "trade/sign_boxing"
+	"%keywords" "trade"
+	"$nolod" 1
+}

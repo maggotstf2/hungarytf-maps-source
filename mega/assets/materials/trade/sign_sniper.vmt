@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "trade/sign_sniper"
+	"%keywords" "trade"
+	"$nolod" 1
+}
