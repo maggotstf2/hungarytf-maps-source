@@ -1,0 +1,24 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/tf2pets/pumpkin/pumpkin"
+	"$bumpmap" "models/tf2pets/pumpkin/pumpkin_norm"
+
+	"$selfillum" "1"
+	"$selfillummask" "models/tf2pets/pumpkin/pumpkin_illum"
+
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.25 .5 3]"
+	
+	"$diffuseexp" "1"
+
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$halflambert" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "21"				
+	"$rimlightboost" ".25"
+
+}

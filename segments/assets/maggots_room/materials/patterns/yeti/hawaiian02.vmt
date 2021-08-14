@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "patterns/yeti/hawaiian02"
+	"$surfaceprop" "Concrete"
+	"%keywords" "wallpaper"
+	"$nolod" 1
+}
