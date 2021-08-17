@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "trade/sign_kart"
+	"%keywords" "trade"
+	"$nolod" 1
+}
