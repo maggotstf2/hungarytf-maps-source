@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Wood/logs004"
-	"$bumpmap" "Concrete/concretefloor004_normal"
-	"$surfaceprop" "wood"
-	"%keywords" "tf"
-}
