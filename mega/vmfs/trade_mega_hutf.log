@@ -1037,3 +1037,171 @@ Level flags = 0
 Total triangle count: 44883
 Writing d:\stuff for seedplanting\projects\main\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp
 1 minute, 1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Stuff for Seedplanting\Projects\MAIN\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.vmf
+***need to set $abovewater for material dev/dev_water2_cheap
+***need to set $abovewater for material dev/dev_water2_cheap
+material "maps/trade_hopi_hutf_fix_v4/dev/dev_blendmeasure2_wvt_patch" not found.
+Material not found!: MAPS/TRADE_HOPI_HUTF_FIX_V4/DEV/DEV_BLENDMEASURE2_WVT_PATCH
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "tfcustoms/color_orange" not found.
+Material not found!: TFCUSTOMS/COLOR_ORANGE
+material "maps/trade_hopi_hutf_fix_v4/winter/blendgraveltograss001_wvt_patch" not found.
+Material not found!: MAPS/TRADE_HOPI_HUTF_FIX_V4/WINTER/BLENDGRAVELTOGRASS001_WVT_PATCH
+Patching WVT material: maps/trade_mega_hutf/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/trade_mega_hutf/egypt/sand_cliff_blend_01_wvt_patch
+Patching WVT material: maps/trade_mega_hutf//lavablend_wvt_patch
+Patching WVT material: maps/trade_mega_hutf/nature/blendgroundtoconcrete001_wvt_patch
+Patching WVT material: maps/trade_mega_hutf/winter/blendgraveltograss001_wvt_patch
+Patching WVT material: maps/trade_mega_hutf/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1292 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Stuff for Seedplanting\Projects\MAIN\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_trainyard_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_trainyard_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_trainyard_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_trainyard_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: invalid neighbor connection on displacement near (640.00 -4736.00 -64.00)
+Warning: invalid neighbor connection on displacement near (576.00 -4672.00 -64.00)
+Warning: invalid neighbor connection on displacement near (576.00 -5760.00 960.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (2) (2551033 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 5970 texinfos to 3367
+Reduced 363 texdatas to 304 (15326 bytes to 12363)
+Writing D:\Stuff for Seedplanting\Projects\MAIN\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Stuff for Seedplanting\Projects\MAIN\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 96867, actual size 70657
+9 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 3
+
+
+
+6 threads
+reading d:\stuff for seedplanting\projects\main\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp
+reading d:\stuff for seedplanting\projects\main\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.prt
+1568 portalclusters
+5081 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 528 visible clusters (0.17%)
+Total clusters visible: 314372
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 337
+visdatasize:208643  compressed from 627200
+writing d:\stuff for seedplanting\projects\main\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\stuff for seedplanting\projects\main\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp', but we don't own that location. Allowing.
+23 minutes, 8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\stuff for seedplanting\projects\main\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp
+15850 faces
+7 degenerate faces
+7321096 square feet [1054237888.00 square inches]
+36 Displacements
+525800 Square Feet [75715280.00 Square Inches]
+15843 patches before subdivision
+211953 patches after subdivision
+545 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 21884745, max 657
+transfer lists: 167.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1463192, 1089346, 824342)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(405399, 241194, 132243)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(138699, 67283, 26473)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(51025, 20186, 5750)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(20364, 6575, 1344)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(8347, 2205, 325)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3591, 776, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1581, 280, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(720, 104, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(336, 40, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(160, 15, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(78, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(39, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(20, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0557 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 382/1024        18336/49152    (37.3%) 
+brushes               3679/8192        44148/98304    (44.9%) 
+brushsides           25412/65536      203296/524288   (38.8%) 
+planes               14290/65536      285800/1310720  (21.8%) 
+vertexes             26426/65536      317112/786432   (40.3%) 
+nodes                 7397/65536      236704/2097152  (11.3%) 
+texinfos              3367/12288      242424/884736   (27.4%) 
+texdata                304/2048         9728/65536    (14.8%) 
+dispinfos               36/0            6336/0        ( 0.0%) 
+disp_verts            5516/0          110320/0        ( 0.0%) 
+disp_tris             9504/0           19008/0        ( 0.0%) 
+disp_lmsamples      525233/0          525233/0        ( 0.0%) 
+faces                15850/65536      887600/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            12596/65536      705376/3670016  (19.2%) 
+leaves                7780/65536      248960/2097152  (11.9%) 
+leaffaces            19067/65536       38134/131072   (29.1%) 
+leafbrushes           6581/65536       13162/131072   (10.0%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges           127670/512000     510680/2048000  (24.9%) 
+edges                77313/256000     309252/1024000  (30.2%) 
+LDR worldlights        545/8192        47960/720896   ( 6.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata           11/32768         132/393216   ( 0.0%) 
+waterstrips           1376/32768       13760/327680   ( 4.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         27954/65536       55908/131072   (42.7%) 
+cubemapsamples          84/1024         1344/16384    ( 8.2%) 
+overlays                83/512         29216/180224   (16.2%) 
+LDR lightdata         [variable]    13367720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      208643/16777216 ( 1.2%) 
+entdata               [variable]      353029/393216   (89.8%) VERY FULL!
+LDR ambient table     7780/65536       31120/262144   (11.9%) 
+HDR ambient table     7780/65536       31120/262144   (11.9%) 
+LDR leaf ambient     21555/65536      603540/1835008  (32.9%) 
+HDR leaf ambient      7780/65536      217840/1835008  (11.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/68464    ( 0.0%) 
+pakfile               [variable]       70657/0        ( 0.0%) 
+physics               [variable]     2551033/4194304  (60.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 44883
+Writing d:\stuff for seedplanting\projects\main\project_trade\hungarytf-maps-source\mega\vmfs\trade_mega_hutf.bsp
+1 minute, 2 seconds elapsed
