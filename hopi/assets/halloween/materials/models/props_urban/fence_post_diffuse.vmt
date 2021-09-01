@@ -1,0 +1,10 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/props_urban/fence_post_diffuse.vtf"
+	"$surfaceprop" "metal"
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost" ".3"	
+	"$phongfresnelranges"	"[2 1 .8]"
+	"%keywords" "tf, terrace"
+}
