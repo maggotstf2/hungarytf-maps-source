@@ -1,5 +1,0 @@
-particles_manifest
-{
-	file	"!particles/funhouse_effects.pcf"
-	file	"!particles/laughter_fx.pcf"
-}
