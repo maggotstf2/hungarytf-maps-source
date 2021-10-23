@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "nature/underworld_lava001"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$model" "1"
+	"$nocull" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.34
+			"texturescrollangle" 90
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/items/medkit_large_C"
+	"$model" 1
+	"$nocull" 1
+	"$bumpmap"	"models/items/medkit_large_C_normal"
+//Nothing like a delicious holiday bird!
+}

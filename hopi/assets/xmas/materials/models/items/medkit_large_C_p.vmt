@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/items/medkit_large_C"
+	"$bumpmap" "models/items/medkit_medium_C_normal"
+
+	"$phong" "1"
+	"$phongexponent" "6"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongboost" ".4"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "5"				
+	"$rimlightboost" "0"
+//Tasty phong apples to go along with that tasty bird!
+}
+
+
+	
+
