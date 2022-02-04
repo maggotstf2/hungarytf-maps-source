@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+   "$basetexture" "dz_minecraft_random/carnage_disco_floor_1"
+ 	"$surfaceprop" "glass"
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" 5
+      }
+   }
+}

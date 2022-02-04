@@ -1,0 +1,427 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8849"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites_2fort"
+	"detailvbsp" "detail_2fort.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_tf2_04"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-256 256 64) (256 256 64) (256 -256 64)"
+			vertices_plus
+			{
+				"v" "-256 256 64"
+				"v" "256 256 64"
+				"v" "256 -256 64"
+				"v" "-256 -256 64"
+			}
+			"material" "DEV/DEV_BLENDMEASURE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-256 -256 0) (256 -256 0) (256 256 0)"
+			vertices_plus
+			{
+				"v" "-256 -256 0"
+				"v" "256 -256 0"
+				"v" "256 256 0"
+				"v" "-256 256 0"
+			}
+			"material" "DEV/DEV_BLENDMEASURE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-256 256 64) (-256 -256 64) (-256 -256 0)"
+			vertices_plus
+			{
+				"v" "-256 256 64"
+				"v" "-256 -256 64"
+				"v" "-256 -256 0"
+				"v" "-256 256 0"
+			}
+			"material" "DEV/DEV_BLENDMEASURE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(256 256 0) (256 -256 0) (256 -256 64)"
+			vertices_plus
+			{
+				"v" "256 256 0"
+				"v" "256 -256 0"
+				"v" "256 -256 64"
+				"v" "256 256 64"
+			}
+			"material" "DEV/DEV_BLENDMEASURE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(256 256 64) (-256 256 64) (-256 256 0)"
+			vertices_plus
+			{
+				"v" "256 256 64"
+				"v" "-256 256 64"
+				"v" "-256 256 0"
+				"v" "256 256 0"
+			}
+			"material" "DEV/DEV_BLENDMEASURE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(256 -256 0) (-256 -256 0) (-256 -256 64)"
+			vertices_plus
+			{
+				"v" "256 -256 0"
+				"v" "-256 -256 0"
+				"v" "-256 -256 64"
+				"v" "256 -256 64"
+			}
+			"material" "DEV/DEV_BLENDMEASURE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 141 242"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "148"
+		editor
+		{
+			"color" "184 125 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "138"
+		editor
+		{
+			"color" "184 125 0"
+			"groupid" "148"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "27"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "scary_sound_timer,FireTimer,,0,-1"
+	}
+	"origin" "-16 0 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "3"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"RefireTime" "30"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "scary_sound_timer"
+	"UpperRandomBound" "100"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "scary_sound_case,PickRandomShuffle,,0,-1"
+	}
+	"origin" "0 0 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "logic_case"
+	"Case01" "5"
+	"Case02" "4"
+	"Case03" "3"
+	"Case04" "8"
+	"Case05" "2"
+	"targetname" "scary_sound_case"
+	connections
+	{
+		"OnCase01" "scary1,PlaySound,,0,-1"
+		"OnCase01" "scary2,StopSound,,0,-1"
+		"OnCase01" "scary3,StopSound,,0,-1"
+		"OnCase01" "scary4,StopSound,,0,-1"
+		"OnCase01" "scary5,StopSound,,0,-1"
+		"OnCase02" "scary5,StopSound,,0,-1"
+		"OnCase02" "scary4,StopSound,,0,-1"
+		"OnCase02" "scary3,StopSound,,0,-1"
+		"OnCase02" "scary1,StopSound,,0,-1"
+		"OnCase02" "scary2,PlaySound,,0,-1"
+		"OnCase03" "scary5,StopSound,,0,-1"
+		"OnCase03" "scary4,StopSound,,0,-1"
+		"OnCase03" "scary3,PlaySound,,0,-1"
+		"OnCase03" "scary2,StopSound,,0,-1"
+		"OnCase03" "scary1,StopSound,,0,-1"
+		"OnCase04" "scary5,StopSound,,0,-1"
+		"OnCase04" "scary4,PlaySound,,0,-1"
+		"OnCase04" "scary3,StopSound,,0,-1"
+		"OnCase04" "scary2,StopSound,,0,-1"
+		"OnCase04" "scary1,StopSound,,0,-1"
+		"OnCase05" "scary5,PlaySound,,0,-1"
+		"OnCase05" "scary4,StopSound,,0,-1"
+		"OnCase05" "scary3,StopSound,,0,-1"
+		"OnCase05" "scary2,StopSound,,0,-1"
+		"OnCase05" "scary1,StopSound,,0,-1"
+	}
+	"origin" "16 0 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "51"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/city_siren_loop2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "scary5"
+	"volstart" "0"
+	"origin" "-32 -48 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "48"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/city_siren_loop1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "scary4"
+	"volstart" "0"
+	"origin" "-16 -48 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "testcitadel/trans6.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "scary3"
+	"volstart" "0"
+	"origin" "0 -48 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "45"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "c17/city_listentone1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "scary2"
+	"volstart" "0"
+	"origin" "16 -48 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "60"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "testcitadel/hit3.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "scary1"
+	"volstart" "0"
+	"origin" "32 -48 128"
+	editor
+	{
+		"color" "184 125 0"
+		"groupid" "138"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

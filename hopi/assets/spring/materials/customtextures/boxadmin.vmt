@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "customtextures/boxadmin"
+	"%keywords" "trademap"
+	"$nodecal" 1
+	"$nolod" 1
+}
