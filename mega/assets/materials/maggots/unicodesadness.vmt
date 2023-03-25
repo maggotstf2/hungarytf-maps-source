@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maggots/unicodesadness"
+	"%keywords" "maggots"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$nolod" 1
+	"$translucent" 1
+
+//	https://tinyurl.com/unicodesadness/
+}
