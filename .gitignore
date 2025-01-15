@@ -1,12 +1,3 @@
-trade_hopi_plaza_hutf.bsp
-trade_hopi_plaza_hutf_v1.bsp
-swim_room.vmx
-spy_arena.vmx
-bumper_kart.vmx
-sniper_arena.vmx
-trade_hopi_plaza_hutf.log
-trade_hopi_plaza_hutf.vmx
-trade_hopi_plaza_hutf.prt
 *.bsp
 *.log
 *.prt
@@ -14,11 +5,5 @@ trade_hopi_plaza_hutf.prt
 *.prt
 *.vmx
 *.vmx
-mega/vmfs/trade_mega_hutf.log
-mega/vmfs/trade_mega_hutf.prt
-mega/vmfs/trade_mega_hutf.vmx
-segments/arena_hub.vmx
 *.bak
-hopi/vmfs/HALLOWEEN 2022/assets/LittleCropOfHorrors.zip
-hopi/vmfs/HALLOWEEN 2022/assets/coffin locker + ammo pack.zip
-hopi/vmfs/HALLOWEEN 2022/assets/coffinskeleton_resupply.zip
+*.zip
