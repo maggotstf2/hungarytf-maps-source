@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/props_london/london_barrier_001b"
-	"$model" "1"
-	"$surfaceprop" "plastic"
-}

@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-  $basetexture "models/props_railing/stone-railing-white"
-  $surfaceprop default
-  $model 1
-}

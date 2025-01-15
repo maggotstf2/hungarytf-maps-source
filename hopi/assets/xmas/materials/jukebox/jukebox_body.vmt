@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "jukebox/jukebox_body"
-	"$phong" "1"
-	"$phongexponent" "10" 
-	"$phongboost" ".125"	
-	"$phongfresnelranges"	"[.7 15 20]"
-	"$basemapalphaphongmask" "1"
-}
