@@ -7,3 +7,5 @@
 *.vmx
 *.bak
 *.zip
+*.bsp_old
+*.backup
