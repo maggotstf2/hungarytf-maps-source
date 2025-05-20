@@ -2,5 +2,4 @@
 {
 	"$basetexture" "trade/sign_mod"
 	"%keywords" "trade"
-	"$nolod" 1
 }
