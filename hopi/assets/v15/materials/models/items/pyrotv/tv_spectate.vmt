@@ -1,0 +1,50 @@
+"UnlitTwoTexture"
+{
+	"$baseTexture" "models/items/pyrotv/tv_spectate"
+	"$texture2" "models/vgui/tv_noise"
+	"$selfillum" 1
+	"$model" 1
+	"$cloakPassEnabled" "1"
+	
+	"Proxies"	
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .6
+			"texturescrollangle" 70
+		}
+		
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$texture2"
+			"animatedtextureframenumvar" "$frame2"
+			"animatedtextureframerate" 30
+		}
+		
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 30
+		}
+		"weapon_invis"
+		{
+		}
+		
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+
+}
